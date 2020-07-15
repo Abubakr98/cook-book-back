@@ -1,0 +1,21 @@
+{
+  "name": "cook-book-back",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint-me": "eslint ."
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "mongoose": "^5.9.23",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
